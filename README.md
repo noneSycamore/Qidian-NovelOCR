@@ -18,7 +18,12 @@
 
 这部分不赘述了，总之就是装一个安卓虚拟机，然后下载好起点App
 
+### 安装 Python 环境
+
+提供了 conda 的环境：`environment.yml`
+
 ### 安装 Tesseract
+**(注意：不再需要此工具，百度飞桨对中文识别的效果更好！)**
 
 1. 从 [UB Mannheim](https://github.com/UB-Mannheim/tesseract/wiki) 下载并安装 Tesseract。
   安装完成后，记住安装路径（如：“D:\Program Files\Tesseract-OCR”）
@@ -26,10 +31,6 @@
   <img src="https://res.cloudinary.com/sycamore/image/upload/v1734276486/Typera/2024/12/cdfed6c26bb76075c0121590ef15cee2.png" alt="image-20241216022802538" style="zoom:75%;" />
 2. 如果没有下载中文训练数据，还可以从 [Tesseract tessdata GitHub](https://github.com/tesseract-ocr/tessdata) 获得，chi_sim.traineddata（简体中文）或 chi_tra.traineddata（繁体中文）。
     将 `.traineddata` 文件放在 Tesseract 的 `tessdata` 目录中。
-
-### 安装 Python 环境
-
-提供了 conda 的环境：`environment.yml`
 
 ## Usage
 
