@@ -1,8 +1,8 @@
 # Qidian Novel OCR
 ## Introduction
-起点小说OCR，仅学习使用。
+起点小说OCR，**仅学习使用**！
 
-~~VIP章节经测试也可以识别，缺点是需要有一个人进行订阅~~
+~~VIP章节经测试也可以，方案的缺点是需要有一个人进行订阅~~
 
 **实现思路**: 
 1. Windows下安装Android Studio，运行一个Android Emulator，安装好起点小说App
@@ -29,7 +29,12 @@
 
 ### 安装 Python 环境
 
-运行：`pip install -r requirements.txt`
+提供了 conda 的环境：`environment.yml`
 
-或者，也提供了 conda 的环境文件：`environment.yml`
+## Usage
 
+直接运行`main.py`就可以，
+
+但需要手动设置需要截图的页数，
+
+如果出现问题，需要调试一下翻页 tap 的位置、翻页后等待的时长等参数
